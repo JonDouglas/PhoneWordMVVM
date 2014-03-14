@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cirrious.MvvmCross.Community.Plugins.Sqlite;
+﻿using Cirrious.MvvmCross.Community.Plugins.Sqlite;
 
-namespace PhoneWordMVVM.Core.Services
+namespace PhoneWordMVVM.Core.Services.Data
 {
     public class Call
     {

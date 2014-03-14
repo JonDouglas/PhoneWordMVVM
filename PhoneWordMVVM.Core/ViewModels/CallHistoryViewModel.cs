@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Cirrious.MvvmCross.ViewModels;
 using PhoneWordMVVM.Core.Services;
+using PhoneWordMVVM.Core.Services.Data;
 
 namespace PhoneWordMVVM.Core.ViewModels
 {

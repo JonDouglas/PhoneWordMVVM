@@ -3,6 +3,7 @@ using System.Windows.Input;
 using Cirrious.MvvmCross.Plugins.PhoneCall;
 using Cirrious.MvvmCross.ViewModels;
 using PhoneWordMVVM.Core.Services;
+using PhoneWordMVVM.Core.Services.Data;
 
 namespace PhoneWordMVVM.Core.ViewModels
 {
