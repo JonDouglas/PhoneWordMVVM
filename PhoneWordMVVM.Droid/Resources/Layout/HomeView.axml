@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Enter a Phoneword:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PhoneNumberText"
+        local:MvxBind="Text PhoneNumber" />
+    <Button
+        android:text="Translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TranslateButton"
+        local:MvxBind="Click TranslateNumberCommand" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CallButton"
+        local:MvxBind="Text CallButtonText; Click MakePhoneCallCommand; Enabled CanCallNumber" />
+    <Button
+        android:text="Call History"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CallHistoryButton"
+        local:MvxBind="Click CallHistoryCommand; Enabled CanSeeHistory" />
+</LinearLayout>
